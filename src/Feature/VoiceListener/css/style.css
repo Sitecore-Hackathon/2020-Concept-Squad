@@ -1,0 +1,34 @@
+.main_search_panel .search_input {
+    background: #ffffff;
+}
+
+.container {
+    width: auto;
+    padding: 0;
+}
+.footer {
+    margin-top: 0;
+    position: relative;
+}
+.main_search_panel .search_input input {
+    width: 550px;
+    top:0;
+}
+
+.main_search_panel .search_input button {
+    background: none;
+    border: none;
+    padding: 8px 4px;
+}
+.main_search_panel .search_input button i{
+    font-size: 32px;
+    padding: 4px;
+    color: #af2d21;
+}
+.header-content .column.search, .header-content .column.link {
+    height: 91px;
+}
+.header-content .column.link.last {
+    width: 149px;
+    text-align: center;
+}

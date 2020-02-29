@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Book A Meetup</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <container class="container">
+      <div>
+        <h1>SiteCore Meetup Planner</h1>
+      </div>
+      <div>
+        <form method="POST" action=":void">
+          <div class="formElement">
+            <label for="title">Meetup Title</label>
+            <input type="text" required name="title" id="title" />
+          </div>
+          <div class="formElement">
+            <label for="phone">Orginalzer Contact no.</label>
+            <input type="text" required pattern="\d{9,10}" name="phone" id="phone" />
+          </div>
+          <div class="formElement">
+            <label for="date">Date</label>
+            <input type="date" required name="date" id="date" />
+            <label for="date">Time</label>
+            <input type="time" required name="time" id="time" />
+          </div>
+          <div class="formElement">
+            <label for="location">Meetup location</label>
+            <input type="text" required name="location" id="location" />
+          </div>
+          <div class="formElement">
+            <label for="description">Description</label>
+            <textarea rows="3" name="description" id="description"></textarea>
+          </div>
+          <div class="formElement">
+            <div>
+              <input type="submit" required name="submit" id="submit" />
+              <input type="reset" required name="reset" id="reset" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </container>
+    <script src="" async defer></script>
+  </body>
+</html>
