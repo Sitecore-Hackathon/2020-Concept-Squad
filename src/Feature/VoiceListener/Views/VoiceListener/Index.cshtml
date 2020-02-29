@@ -1,7 +1,28 @@
-﻿
-@{
-    ViewBag.Title = "VoiceListener";
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Listener</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<h2>Voice Listener</h2>
+    <script src="~/Scripts/recorder.js"></script>
+    <script src="~/Scripts/hark.js"></script>
+    <script src="~/Scripts/Fr.voice.js"></script>
+    <script src="~/Scripts/app.js"></script>
+    <script>
+        function loadRecorder(name) {
+            window.loadPopup(name);
+        }</script>
 
+</head>
+<body>
+    <h2>Voice Listener</h2>
+    <div class="form-group">
+        <label for="lname">Comment:</label>
+        <textarea class="form-control" rows="5" id="lname"></textarea>
+    </div>
+    <button onclick="loadRecorder('lname')"><i class="fa fa-microphone" style="font-size:48px;color:red"></i></button>
+</body>
+</html>
