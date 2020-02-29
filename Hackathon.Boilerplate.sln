@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{17DD5718-6E13-4F2C-9738-B410396D4552}"
-	ProjectSection(SolutionItems) = preProject
-		src\Feature\TextFile1.txt = src\Feature\TextFile1.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}"
 EndProject
@@ -32,12 +29,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceListener", "src\Feature\VoiceListener\VoiceListener.csproj", "{3328021B-5F8D-444F-B678-36FA7EAC1D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceListener.Tests", "src\Feature\VoiceListener.Tests\VoiceListener.Tests.csproj", "{E139C3B7-63C8-4B9D-8D4C-FBB559FFE1D0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3328021B-5F8D-444F-B678-36FA7EAC1D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3328021B-5F8D-444F-B678-36FA7EAC1D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3328021B-5F8D-444F-B678-36FA7EAC1D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3328021B-5F8D-444F-B678-36FA7EAC1D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E139C3B7-63C8-4B9D-8D4C-FBB559FFE1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E139C3B7-63C8-4B9D-8D4C-FBB559FFE1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E139C3B7-63C8-4B9D-8D4C-FBB559FFE1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E139C3B7-63C8-4B9D-8D4C-FBB559FFE1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
+		{3328021B-5F8D-444F-B678-36FA7EAC1D1A} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{E139C3B7-63C8-4B9D-8D4C-FBB559FFE1D0} = {17DD5718-6E13-4F2C-9738-B410396D4552}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
