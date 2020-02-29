@@ -88,19 +88,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Site.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="css\form.html" />
+    <Content Include="css\homepage\MPstyles.css" />
+    <Content Include="css\style.css" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="img\content_bg.jpg" />
+    <Content Include="img\footer_photo %281%29.png" />
+    <Content Include="img\footer_photo.png" />
+    <Content Include="img\header_divider.jpg" />
+    <Content Include="img\header_profile_links_popup_bg.jpg" />
+    <Content Include="img\icon_reporting.png" />
+    <Content Include="img\knowledgebase\bg-footer-connections.png" />
+    <Content Include="img\knowledgebase\header_divider.jpg" />
+    <Content Include="img\knowledgebase\header_logo.png" />
+    <Content Include="img\main_content_parts_bg.png" />
+    <Content Include="img\main_search_popular_bg.png" />
+    <Content Include="img\main_search_right_picture.png" />
+    <Content Include="img\others\Contribute.png" />
+    <Content Include="img\others\Discover.png" />
+    <Content Include="img\others\Engage.png" />
+    <Content Include="img\others\google_big.png" />
+    <Content Include="img\others\icon_reporting.png" />
+    <Content Include="img\others\star_checked.png" />
+    <Content Include="img\signin_popup_bg.jpg" />
+    <Content Include="img\spr_btn_singup_now.png" />
+    <Content Include="js\app.js" />
+    <Content Include="js\Fr.voice.js" />
+    <Content Include="js\hark.js" />
+    <Content Include="js\loadData.js" />
+    <Content Include="js\recorder.js" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -113,14 +130,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="data\auth.json" />
+    <Content Include="data\chat.json" />
+    <Content Include="data\page.json" />
+    <Content Include="data\search.json" />
+    <Content Include="fonts\webfonts\202104_0_0.ttf" />
+    <Content Include="fonts\webfonts\202104_1_0.ttf" />
+    <Content Include="fonts\webfonts\VarelaRound-Regular.ttf" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\VoiceListener\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -128,10 +147,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

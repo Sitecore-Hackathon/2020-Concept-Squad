@@ -1,0 +1,73 @@
+{
+  "exact": null,
+  "more": {
+    "items": [
+      {
+        "categoryId": null,
+        "categoryKey": "default",
+        "categoryName": null,
+        "categoryShortId": null,
+        "description": "CSR Chat Module\u000a\u000aPurpose of the module",
+        "family": "Shared Source",
+        "familyId": "{D5815D8D-B84F-44D4-8293-C1EA3F2B688F}",
+        "familyShortId": "f1",
+        "like": 1,
+        "link": "/en/Modules/C/CSR_Chat_Module.aspx",
+        "modulename": "CSR Chat Module",
+        "rate": 5,
+        "relevance": 1,
+        "reviews": 0
+      },
+      {
+        "categoryId": "{804F1F68-90B2-4804-A913-DFAFE7176A75}",
+        "categoryKey": "social",
+        "categoryName": "Social and Community",
+        "categoryShortId": "c11",
+        "description": "Sitecore Wechat Module provide a unified method managing Wechat channel content through Sitecore user interface.",
+        "family": "Shared Source",
+        "familyId": "{D5815D8D-B84F-44D4-8293-C1EA3F2B688F}",
+        "familyShortId": "f1",
+        "like": 1,
+        "link": "/en/Modules/S/Sitecore_Wechat.aspx",
+        "modulename": "Sitecore Wechat",
+        "rate": 0,
+        "relevance": 1,
+        "reviews": 0
+      },
+      {
+        "categoryId": "{2DB1A03A-968F-4053-8B67-BCD16ED3B1C6}",
+        "categoryKey": "accelarators",
+        "categoryName": "Developer Accelerators",
+        "categoryShortId": "c0",
+        "description": "Sitecore Alphanumeric Captcha Control - Plug and play module to generate Alphunumieric captcha code and validate forms.",
+        "family": "Third Party",
+        "familyId": "{BCF312D2-D18F-4B4A-A208-3523E8ECBB10}",
+        "familyShortId": "f2",
+        "like": 0,
+        "link": "/en/Modules/S/Sitecore_AlphaNumeric_Captcha.aspx",
+        "modulename": "Sitecore AlphaNumeric Captcha",
+        "rate": 0,
+        "relevance": 1,
+        "reviews": 0
+      },
+      {
+        "categoryId": "{ABA21B0A-F844-4857-8BB0-0D5B303BD9D9}",
+        "categoryKey": "interaction",
+        "categoryName": "Visitor Interaction",
+        "categoryShortId": "c3",
+        "description": "Please add a short description of your module that will be seen by others when they see it on the Discover page.",
+        "family": "Shared Source",
+        "familyId": "{D5815D8D-B84F-44D4-8293-C1EA3F2B688F}",
+        "familyShortId": "f1",
+        "like": 0,
+        "link": "/en/Modules/W/WFFM_Populate_Field_Actions.aspx",
+        "modulename": "WFFM Populate Field Actions",
+        "rate": 0,
+        "relevance": 1,
+        "reviews": 0
+      }
+    ],
+    "itemsOnPage": 4,
+    "total": 4
+  }
+}
